@@ -1,0 +1,295 @@
+#cv{
+	position:absolute;
+	margin-bottom:10px;
+	margin-top:10px;
+	width:21cm;
+	height:29.7cm;
+	background-color:white;
+	display:flex;
+}
+
+body{
+	margin:0px;
+	background-color:black;
+	display:flex;
+	align-items:center;
+	flex-direction:center;
+	flex-direction:column;
+
+}
+
+#gauche{
+	width:35%;
+	height:100%;
+	background-color:#E5E8E8;
+}
+
+#droite{
+	width:65%;
+	height:100%;
+	background-color:#82E0AA;
+	color:#34495E;
+}
+
+.photoLogo img{
+	border-radius:50%;
+	width:50%;
+}
+
+.photoLogo{
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+
+
+.apropos{
+	flex-wrap:wrap;
+	word-wrap: break-word;
+	margin-bottom:200px;
+}
+
+.apropos h4{
+	padding:5px;
+	text-align:center;
+	background-color:white
+}
+
+.apropos p{
+	margin-left:25px;
+	margin-right:25px;
+	text-align:justify;
+}
+
+/* contact */
+
+.contact{
+	flex-wrap:wrap;
+	word-wrap: break-word;
+
+}
+
+.contact h4{
+	padding:5px;
+	text-align:center;
+	background-color:white
+}
+
+.contact ul{
+	list-style-type:none;
+}
+
+.contact li{
+	padding-bottom:6px;
+}
+/* loisirs */
+.loisirs{
+	flex-wrap:wrap;
+	word-wrap: break-word;
+	margin-top:390px;
+	display:flex;
+	flex-direction:column;
+
+}
+
+.loisirs h4{
+	padding:5px;
+	text-align:center;
+	background-color:white
+}
+
+.loisirsImg img{
+	margin:8px;
+}
+
+.loisirsImg{
+	display:flex;
+	justify-content:center;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.nom h1{
+	margin-bottom:3px;
+	font-size:3rem;
+	color:#1C2833;
+}
+
+.nom p{
+	margin-top:6px;
+	font-size:1.3rem; 
+}
+
+.nom{
+	margin-left:20px;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.formations{
+	margin-top:119px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.formations div{
+	display:flex;
+	height:24px;
+	align-items:center;
+	border-bottom:2px solid black;
+	padding-bottom:2px;
+}
+
+.formations img{
+	margin-right:10px;
+}
+
+
+.formations table{
+	border-collapse:separate;
+	border-spacing:1px 1rem
+
+}
+
+
+table{
+	text-align:left;
+}
+
+.f{
+	font-size:0.7rem;
+	display:flex;
+	font-weight:bold;
+	margin-right:0px;
+
+}
+
+
+/* experiences ///////////////////////////////////: */
+
+
+.exp{
+	margin-top:119px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.exp div{
+	display:flex;
+	height:24px;
+	align-items:center;
+	border-bottom:2px solid black;
+	padding-bottom:2px;
+}
+
+.exp img{
+	margin-right:10px;
+}
+
+
+.exp table{
+	border-collapse:separate;
+	border-spacing:1px 1rem
+
+}
+
+
+table{
+	text-align:left;
+}
+
+/* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
+
+.recommendations div{
+	display:flex;
+	height:24px;
+	align-items:center;
+	border-bottom:2px solid black;
+	padding-bottom:2px;
+}
+
+.recommendations{
+	margin-top:140px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.recommendations img{
+	margin-right:10px
+}
+
+.recommendations section{
+	display:flex;
+}
+
+.recommendations aside{
+	margin-top:40px;
+	margin-right:25px;
+}
+
+.recommendations ul{
+	list-style-type:none;
+}
+
+
+/* media query */
+
+@media screen and (max-width:817px){
+	#cv{
+		position:absolute;
+		flex-direction:column;
+		width:100%;
+		height:100%;
+		min-height:2500px;
+		align-items:center;
+		left:0px;
+		right:0px;
+		min-width:410px;
+	}
+
+	#gauche , #droite{
+		width:100%;
+		min-width:410px;
+	}
+
+	.nom{
+		display:none;
+	}
+
+
+}
+
+
+/*  */
+@media (orientation: portrait) {
+
+		.f{
+			font-size:2rem;
+		}
+		#cv{
+		position:absolute;
+		flex-direction:column;
+		width:100%;
+		height:100%;
+		min-height:2500px;
+		align-items:center;
+		left:0px;
+		right:0px;
+		min-width:410px;
+		font-size:2rem;
+	}
+
+	#gauche , #droite{
+		width:100%;
+		min-width:410px;
+	}
+
+	.nom{
+		display:none;
+	}
+  
+}
