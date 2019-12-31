@@ -204,7 +204,7 @@ table{
 
 /* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
 
-.recommendations div{
+.recommendations .lediv{
 	display:flex;
 	height:24px;
 	align-items:center;
@@ -222,17 +222,19 @@ table{
 	margin-right:10px
 }
 
-.recommendations section{
+/*.recommendations section{
 	display:flex;
+}*/
+
+
+.le100{
+	width: 100%;
 }
 
-.recommendations aside{
-	margin-top:40px;
-	margin-right:25px;
-}
-
-.recommendations ul{
-	list-style-type:none;
+.le45a{
+	width: 45%;
+	margin-right: 10%;
+	float: left;
 }
 
 
@@ -258,6 +260,12 @@ table{
 
 	.nom{
 		display:none;
+	}
+
+	.le45a{
+		width: 100%;
+		float: none;
+		margin: 0;
 	}
 
 
@@ -291,5 +299,9 @@ table{
 	.nom{
 		display:none;
 	}
+
+
   
 }
+
+
