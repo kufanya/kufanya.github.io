@@ -167,8 +167,10 @@ table{
 	font-size:0.7rem;
 	display:flex;
 	font-weight:bold;
-	margin-right:0px;
-
+	flex-wrap:nowrap;
+	width:90px;
+	
+	
 }
 
 
