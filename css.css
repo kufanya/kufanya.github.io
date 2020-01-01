@@ -204,32 +204,6 @@ table{
 
 /* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
 
-.recommendations{
-	display:flex;
-	height:24px;
-	align-items:center;
-	border-bottom:2px solid black;
-	padding-bottom:2px;
-}
-
-.recommendations section{
-	margin-top:18px;
-
-}
-
-.recommendations{
-	margin-top:140px;
-	margin-left:20px;
-	margin-right:20px;
-}
-
-.recommendations img{
-	margin-right:10px
-}
-
-/*.recommendations section{
-	display:flex;
-}*/
 
 
 
@@ -238,10 +212,7 @@ table{
 
 @media screen and (max-width:817px){
 
-	.recommendations section{
-	margin-bottom:18px;
 
-	}
 	#cv{
 		position:absolute;
 		flex-direction:column;
