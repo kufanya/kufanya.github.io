@@ -324,6 +324,14 @@ table{
 
 	#rec{
 		flex-direction:row;
+		word-wrap:break-word;
+
+	}
+
+	.loisirs{
+		flex-wrap:wrap;
+		word-wrap: break-word;
+		flex-direction:column;
 
 	}
 
