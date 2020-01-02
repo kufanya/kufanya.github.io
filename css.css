@@ -1,3 +1,12 @@
+body{
+	margin:0;
+	background-color:black;
+	display:flex;
+	align-items:center;
+	flex-direction:center;
+	flex-direction:column;
+}
+
 #cv{
 	position:absolute;
 	margin-bottom:10px;
@@ -9,15 +18,7 @@
 	word-wrap:break-word;
 }
 
-body{
-	margin:0px;
-	background-color:black;
-	display:flex;
-	align-items:center;
-	flex-direction:center;
-	flex-direction:column;
 
-}
 
 #gauche{
 	width:35%;
