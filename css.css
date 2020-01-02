@@ -317,46 +317,5 @@ table{
 }
 
 
-/* orientation landscape */
-@media (orientation: landscape) {
-		
-
-
-
-		#rec{
-		display:flex;
-		flex-direction:column;
-		word-wrap:break-word;
-				}
-
-
-		.f{
-			font-size:2rem;
-		}
-		#cv{
-		position:absolute;
-		flex-direction:column;
-		width:100%;
-		height:100%;
-		min-height:2500px;
-		align-items:center;
-		left:0px;
-		right:0px;
-		min-width:410px;
-		font-size:2rem;
-	}
-
-	#gauche , #droite{
-		width:100%;
-		min-width:410px;
-	}
-
-	.nom{
-		display:none;
-	}
-
-
-  
-}
 
 
