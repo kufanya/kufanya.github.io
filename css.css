@@ -325,7 +325,7 @@ table{
 
 		#rec{
 		display:flex;
-		flex-direction:row;
+		flex-direction:column;
 		word-wrap:break-word;
 				}
 
