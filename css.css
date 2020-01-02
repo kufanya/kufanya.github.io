@@ -278,7 +278,7 @@ table{
 
 
 /*  */
-@media screen and(orientation: portrait) {
+@media (orientation: portrait) {
 		
 
 
@@ -317,13 +317,15 @@ table{
 
 }
 
+
+
 @media screen and(orientation: landscape) {
 
 	#rec{
 		display:flex;
 		flex-direction:column;
 		word-wrap:break-word;
-				}
+	}
 
 
 	.f{
