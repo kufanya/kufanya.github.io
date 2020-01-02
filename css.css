@@ -319,6 +319,18 @@ table{
   
 }
 
+@media (orientation: portrait) {
+		
+
+	#rec{
+		flex-direction:row;
+
+	}
+
+
+  
+}
+
 
 
 
