@@ -323,7 +323,7 @@ table{
 
 
 	@media(orientation:landscape){
-		@media all and (max-device-width:480px){
+		@media all and (max-device-height:480px){
 
 			#rec{
 				display:flex;
