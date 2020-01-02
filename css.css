@@ -279,7 +279,7 @@ table{
 
 /*  */
 
-/*
+
 @media (orientation: portrait) {
 		
 
@@ -319,11 +319,10 @@ table{
 
 }
 
-*/
 
 
-
-@media all and (max-device-width: 480px){
+@media all and (max-device-width:480px){
+	@media(orientation:landscape){
 
 	#rec{
 		display:flex;
@@ -356,13 +355,13 @@ table{
 	.nom{
 		display:none;
 	}
-		
 
-	
-
-
-  
+	}
 }
+
+
+
+
 
 
 
