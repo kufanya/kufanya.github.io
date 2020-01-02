@@ -319,7 +319,7 @@ table{
 
 
 
-@media screen and(orientation: landscape) {
+@media all and (max-device-width: 480px){
 
 	#rec{
 		display:flex;
