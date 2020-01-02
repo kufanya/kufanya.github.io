@@ -272,6 +272,9 @@ table{
 
 
 }
+.rec{
+	word-wrap:break-word;
+}
 
 
 /*  */
