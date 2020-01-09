@@ -1,5 +1,7 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 body{
 	margin:0;
 	background-color:black;
@@ -15,6 +17,8 @@ body{
 	        flex-direction:center;
 	flex-direction:column;
 }
+
+
 .no{
 	text-align:center;
 }
@@ -69,7 +73,7 @@ body{
 	-ms-flex-wrap:wrap;
 	    flex-wrap:wrap;
 	word-wrap: break-word;
-	margin-bottom:200px;
+	margin-bottom:190px;
 }
 
 .apropos h4{
@@ -114,7 +118,7 @@ body{
 	-ms-flex-wrap:wrap;
 	    flex-wrap:wrap;
 	word-wrap: break-word;
-	margin-top:390px;
+	margin-top:379px;
 	display:-webkit-box;
 	display:-ms-flexbox;
 	display:flex;
@@ -165,6 +169,18 @@ body{
 
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.pTab{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+}
+.mTab{
+	margin-right:30px;
+	display:inline;
+	min-width:70px;
+	background-color:transparent;
+	font-size:13px;
+}
 .formations{
 	margin-top:119px;
 	margin-left:20px;
@@ -188,11 +204,8 @@ body{
 	margin-right:10px;
 }
 
-
-.formations table{
-	border-collapse:separate;
-	border-spacing:1px 1rem
-
+#fomationsDernier{
+	margin-top:209px;
 }
 
 
@@ -335,7 +348,9 @@ table{
 
 
 @media (orientation: portrait) {
-		
+		.mTab{
+			font-size:1.6rem;
+		}
 		.no{
 		display:block;
 				}
@@ -391,6 +406,10 @@ table{
 	@media(orientation:landscape){
 		@media all and (max-device-height:480px){
 
+			.mTab{
+			font-size:1.6rem;
+			}
+
 			.no{
 				display:block;
 			}
@@ -439,7 +458,6 @@ table{
 
 		}
 }
-
 
 
 
