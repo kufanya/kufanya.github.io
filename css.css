@@ -179,6 +179,7 @@ body{
 	display:inline;
 	min-width:70px;
 	font-size:13px;
+	background-color:transparent;
 }
 .formations{
 	margin-top:119px;
