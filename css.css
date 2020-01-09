@@ -291,6 +291,9 @@ table{
 /* media query */
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 817px */
 @media screen and (max-width:817px){
+	body{
+			font-size:3rem;
+		}
 
 	.no{
 		display:block;
@@ -349,6 +352,10 @@ table{
 
 
 @media (orientation: portrait) {
+
+		body{
+			font-size:3rem;
+		}
 		.mTab{
 			font-size:1.6rem;
 		}
@@ -406,6 +413,9 @@ table{
 
 	@media(orientation:landscape){
 		@media all and (max-device-height:480px){
+			body{
+			font-size:3rem;
+			}
 
 			.mTab{
 			font-size:1.6rem;
