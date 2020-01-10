@@ -32,6 +32,7 @@ body{
 	display:-ms-flexbox;
 	display:flex;
 	word-wrap:break-word;
+	
 }
 
 
@@ -292,7 +293,7 @@ table{
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 817px */
 @media screen and (max-width:817px){
 		*{
-			font-size:1.2rem;
+			font-size:1.1rem;
 		}
 
 	.no{
@@ -353,10 +354,10 @@ table{
 
 @media (orientation: portrait) {
 		*{
-			font-size:1.6rem;
+			font-size:1.5rem;
 			}
 		.mTab{
-			font-size:1.6rem;
+			font-size:1.5rem;
 		}
 		.no{
 		display:block;
@@ -414,11 +415,11 @@ table{
 		@media all and (max-device-height:480px){
 
 			*{
-			font-size:1.6rem;
+			font-size:1.5rem;
 			}
 
 			.mTab{
-			font-size:1.6rem;
+			font-size:1.5rem;
 			}
 
 			.no{
