@@ -455,7 +455,7 @@ body{
 			}
 
 			#droite{
-				overflow:hidden;
+				overflow:scroll;
 			}
 
 			#gauche , #droite{
