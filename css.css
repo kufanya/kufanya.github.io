@@ -328,6 +328,10 @@ body{
 		min-width:410px;
 	}
 
+	#droite{
+		overflow:scroll;
+	}
+
 
 	.nom{
 		display:none;
@@ -362,6 +366,10 @@ body{
 		word-wrap:break-word;
 				}
 
+				#droite{
+					overflow:scroll;
+				}
+
 
 		.f{
 			font-size:2rem;
@@ -382,7 +390,7 @@ body{
 		right:0px;
 		min-width:410px;
 		font-size:2rem;
-		overflow:scroll;
+
 	}
 
 	#gauche , #droite{
@@ -442,7 +450,7 @@ body{
 				right:0px;
 				min-width:410px;
 				font-size:2rem;
-				overflow:scroll;
+
 
 			}
 
