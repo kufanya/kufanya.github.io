@@ -454,6 +454,10 @@ body{
 
 			}
 
+			#droite{
+				overflow:hidden;
+			}
+
 			#gauche , #droite{
 				width:100%;
 				min-width:410px;
