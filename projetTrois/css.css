@@ -212,8 +212,7 @@ hr{
 	align-items:center;
 	justify-content:center;
 	width:70%;
-	height:100%;
-	margin-bottom:10%;
+	margin-bottom:29%;
 }
 
 #sectionUn, #sectionDeux, #sectionTrois, #sectionQuatre{
@@ -239,6 +238,8 @@ hr{
 	justify-content:center;
 }
 
+
+
 .pro{
 	width:170px;
 	height:50px;
@@ -246,6 +247,8 @@ hr{
 	background-color:green;
 	box-shadow:0;
 	border:0;
+	color:yellow;
+	font-weight:bold;
 }
 
 .pro a{
@@ -332,7 +335,7 @@ hr{
 }
 
 .souligneMoi{
-	background-image: linear-gradient(180deg, transparent 65%, red 0);
+	background-image: linear-gradient(180deg, transparent 65%, yellow 0);
   	background-repeat: no-repeat;
   	background-size: 0 100%;
   	transition: background-size .4s ease;
@@ -347,15 +350,27 @@ hr{
 
 /* wiggle */
 
-#wiggle:hover {
-  -webkit-animation-name: wiggle;
-  -ms-animation-name: wiggle;
-  -ms-animation-duration: 1000ms;
-  -webkit-animation-duration: 1000ms;
-  -webkit-animation-iteration-count: 1;
-  -ms-animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease-in-out;
-  -ms-animation-timing-function: ease-in-out;
+
+.cn:hover{
+	-webkit-animation-name: wiggle;
+	-ms-animation-name: wiggle;
+	-ms-animation-duration: 1000ms;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: 1;
+	-ms-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in-out;
+	-ms-animation-timing-function: ease-in-out;	
+}
+
+.ml:hover{
+	-webkit-animation-name: wiggle;
+	-ms-animation-name: wiggle;
+	-ms-animation-duration: 1000ms;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: 1;
+	-ms-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in-out;
+	-ms-animation-timing-function: ease-in-out;
 }
 
 @-webkit-keyframes wiggle {
