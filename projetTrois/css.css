@@ -16,7 +16,7 @@ body {
 header{
 	position:absolute;
 	top:0px;
-	height:10%;
+	height:12%;
 	width:100%;
 	background-color:#0B9D49;
 	display:flex;
@@ -30,6 +30,7 @@ header{
 }
 .logo{
 	width:22%;
+	height:auto;
 	display:flex;
 }
 
@@ -37,6 +38,8 @@ header{
 	display:flex;
 	align-items:center;
 	justify-content:center;
+	width:auto;
+	height:auto;
 }
 
 
@@ -77,7 +80,11 @@ td.menuPrix{
 
 
 footer a{
-	font-size:1em;
+	font-size:1.1em;
+}
+
+footer span{
+	width:100px;
 }
 
 /* menu exemple */
@@ -85,12 +92,15 @@ footer a{
 
 .ml{
 	position:fixed;
-	left:40px;
+	left:30px;
+	font-weight:bold;
+	margin-right:10%;
 }
 .cn{
 	position:fixed;
-	right:40px;
+	right:30px;
 	font-weight:bold;
+	margin-left:10%;
 	
 
 }
@@ -144,7 +154,46 @@ footer a{
 }
 
 .menu h3, .menuDeux h3, .menuTrois h3, .menuQuatre h3{
-	font-size:3rem;
+	font-size:2rem;
+}
+
+.menu {
+	font-family:'Pacifico', cursive;
+}
+
+.menuDeux{
+	font-family:'Courgette', cursive;
+}
+.menuTrois{
+	font-family:'Cookie', cursive;
+}
+
+.menuQuatre{
+	font-family:'Oleo Script', cursive;
+}
+
+#sectionUn{
+	
+	background-color:#F1948A;
+	font-family:'Pacifico', cursive;
+	color:white;
+	
+}
+
+#sectionDeux{
+	background-color:#FADBD8;
+	font-family:'Oleo Script', cursive;
+}
+
+#sectionTrois{
+	background-color:#D5D8DC;
+	font-family:'Cookie', cursive;
+	
+}
+#sectionQuatre{
+	background-color:#F4F6F6;
+	font-family:'Courgette', cursive;
+	
 }
 
 .menu img{
@@ -187,9 +236,8 @@ hr{
 	width:35%;
 	min-width:20%;
 	height:4px;
-	background: linear-gradient(to bottom right, #28B463, #7D3C98);
+	background: linear-gradient(to bottom right, pink, #7D3C98);
 	border:none;
-	color:white;
 	margin-left:5px;
 	margin-right:5px;
 }
@@ -211,6 +259,8 @@ hr{
 
 #dernierBloc img{
 	margin-right:10px;
+	height:52px;
+	width:52px;
 	
 }
 /* fin menuTest css */
@@ -236,6 +286,8 @@ hr{
 	align-items:center;
 	justify-content:center;
 }
+
+
 
 #sectionUn a, #sectionDeux a, #sectionTrois a, #sectionQuatre a{
 	text-decoration:none;
@@ -298,33 +350,12 @@ hr{
 
 /* décoration mise en page des menus de l'accueil */
 
-#sectionUn{
-	
-	background-color:#F1948A;
-	font-family: 'Pacifico', cursive;
-	color:white;
-	
-}
 
-#sectionDeux{
-	background-color:#FADBD8;
-	font-family: 'Playfair Display', serif;
-}
-
-#sectionTrois{
-	background-color:#D5D8DC;
-	font-family: 'Jim Nightshade', cursive;
-	
-}
-#sectionQuatre{
-	background-color:#F4F6F6;
-	font-family: 'Lobster', cursive;
-	
-}
 
 #sectionUn , #sectionDeux , #sectionTrois , #sectionQuatre{
 	height:700px;
 	width:40%;
+	box-shadow:2px 2px 4px #AAB7B8;
 }
 
 
@@ -369,7 +400,7 @@ hr{
 /* wiggle */
 
 
-.cn:hover{
+.cn:hover , .ml:hover{
 	-webkit-animation-name: wiggle;
 	-ms-animation-name: wiggle;
 	-ms-animation-duration: 1000ms;
@@ -380,16 +411,7 @@ hr{
 	-ms-animation-timing-function: ease-in-out;	
 }
 
-.ml:hover{
-	-webkit-animation-name: wiggle;
-	-ms-animation-name: wiggle;
-	-ms-animation-duration: 1000ms;
-	-webkit-animation-duration: 1000ms;
-	-webkit-animation-iteration-count: 1;
-	-ms-animation-iteration-count: 1;
-	-webkit-animation-timing-function: ease-in-out;
-	-ms-animation-timing-function: ease-in-out;
-}
+
 
 @-webkit-keyframes wiggle {
   0% {-webkit-transform: rotate(10deg);}
@@ -467,8 +489,8 @@ hr{
 
 
 
-	.footer{
-		margin-top:30%;
+	footer{
+		margin-top:9%;
 	}
 
 	#sectionUn , #sectionDeux , #sectionTrois , #sectionQuatre{
@@ -477,6 +499,8 @@ hr{
 		margin-left:none;
 		margin-right:none;
 	}
+
+
 }
 
 @media(orientation:landscape){
@@ -492,8 +516,8 @@ hr{
 	
 	
 	
-		.footer{
-			margin-top:30%;
+		footer{
+			margin-top:9%;
 		}
 	
 		#sectionUn , #sectionDeux , #sectionTrois , #sectionQuatre{
