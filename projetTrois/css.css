@@ -1,12 +1,14 @@
 body {
 	background-color: white;
 	margin: 0px;
+	padding:0px;
 	display: flex;
 	justify-content:center;
 	align-items:center;
 	overflow:scroll;
 	overflow-x:hidden;
 	flex-direction:column;
+	margin:none;
 }
 
 
@@ -20,12 +22,14 @@ header{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	margin:0px;
+	margin-right:0px;
+	margin-left:0px;
 	margin-bottom:50px;
 	z-index:2;
+	padding:none;
 }
 .logo{
-	width:25%;
+	width:22%;
 	display:flex;
 }
 
@@ -59,6 +63,14 @@ table{
 
 .menuPrix{
 	text-align:right;
+}
+
+td.menuText{
+	width:75%;
+}
+
+td.menuPrix{
+	width:25%;
 }
 
 
@@ -96,10 +108,11 @@ footer a{
 
 .menu, .menuDeux, .menuTrois, .menuQuatre{
 	position:absolute;
+	padding:2%;
 	top:100px;
 	width:50%;
-	max-width:630px;
-	height:75%;
+	max-width:35%;
+	height:auto;
 	min-height:800px;
 	margin-bottom:10%;
 	margin-top:10%;
@@ -217,8 +230,7 @@ hr{
 
 #sectionUn, #sectionDeux, #sectionTrois, #sectionQuatre{
 	width:45%;
-	height:750px;
-	min-width:450px;
+	height:75%;
 	margin:10px;
 	display:flex;
 	align-items:center;
@@ -245,7 +257,7 @@ hr{
 	height:50px;
 	border-radius:14px;
 	background-color:green;
-	box-shadow:0;
+	box-shadow:none;
 	border:0;
 	color:yellow;
 	font-weight:bold;
@@ -291,6 +303,7 @@ hr{
 	background-color:#F1948A;
 	font-family: 'Pacifico', cursive;
 	color:white;
+	
 }
 
 #sectionDeux{
@@ -307,6 +320,11 @@ hr{
 	background-color:#F4F6F6;
 	font-family: 'Lobster', cursive;
 	
+}
+
+#sectionUn , #sectionDeux , #sectionTrois , #sectionQuatre{
+	height:700px;
+	width:40%;
 }
 
 
@@ -413,8 +431,8 @@ hr{
   overflow: hidden;
   display: inline-block;
   vertical-align: bottom;
-  -webkit-animation: ellipsis steps(4,end) 1000ms infinite;      
-  animation: ellipsis steps(4,end) 1000ms infinite;
+  -webkit-animation: ellipsis steps(5,end) 1000ms infinite;      
+  animation: ellipsis steps(5,end) 1000ms infinite;
   content: "\2026"; /* ascii code for the ellipsis character */
   width: 0px;
 }
@@ -440,42 +458,49 @@ hr{
 
 	.menu, .menuDeux, .menuTrois, .menuQuatre{
 		width:100%;
+		min-width:100%;
+		margin-left:none;
+		margin-right:none;
 		margin-bottom:30%;
-		min-width:410px;
+		height:auto;
 	}
 
-	body, footer, header{
-		min-width:410px;
-	}
+
 
 	.footer{
 		margin-top:30%;
 	}
 
-	#sectionUn{
+	#sectionUn , #sectionDeux , #sectionTrois , #sectionQuatre{
 		margin-top:25%;
+		width:100%;
+		margin-left:none;
+		margin-right:none;
 	}
 }
 
 @media(orientation:landscape){
-	@media all and (max-device-height:480px){
+	@media all and (max-height:480px){
 		.menu, .menuDeux, .menuTrois, .menuQuatre{
 			width:100%;
+			min-width:100%;
+			margin-left:none;
+			margin-right:none;
 			margin-bottom:30%;
-			min-width:410px;
+			height:auto;
 		}
 	
-		body, footer, header{
-			min-width:410px;
-			width:100%;
-		}
+	
 	
 		.footer{
 			margin-top:30%;
 		}
-
-		#sectionUn{
+	
+		#sectionUn , #sectionDeux , #sectionTrois , #sectionQuatre{
 			margin-top:25%;
+			width:100%;
+			margin-left:none;
+			margin-right:none;
 		}
 
 
