@@ -120,7 +120,7 @@ footer span{
 	position:absolute;
 	padding:2%;
 	top:100px;
-	width:55%;
+	width:45%;
 	/*max-width:35%;*/
 	height:auto;
 	min-height:800px;
@@ -134,19 +134,29 @@ footer span{
 
 .menuDeux{
 	background-color:#F2F3F4;
+	color:#28B463;
+	font-family:'Courgette', cursive;
 }
 
 .menuTrois{
 	background-color: #CACFD2;
+	color:blue;
+	font-family:'Cookie', cursive;
+	font-weight:bold;
 
 }
 
 .menuQuatre{
 	background-color: #FADBD8;
+	font-family:'Oleo Script', cursive;
+	color:#7D3C98;
+	
 }
 
 .menu{
 	background-color: pink;
+	color:#7B241C;
+	font-family:'Pacifico', cursive;
 }
 
 .menuExemple{
@@ -157,42 +167,32 @@ footer span{
 	font-size:2rem;
 }
 
-.menu {
-	font-family:'Pacifico', cursive;
-}
 
-.menuDeux{
-	font-family:'Courgette', cursive;
-}
-.menuTrois{
-	font-family:'Cookie', cursive;
-}
 
-.menuQuatre{
-	font-family:'Oleo Script', cursive;
-}
-
-#sectionUn{
+#sectionUn , #sectionUn a{
 	
 	background-color:#F1948A;
 	font-family:'Pacifico', cursive;
-	color:white;
+	color:#7B241C;
 	
 }
 
-#sectionDeux{
+#sectionDeux , #sectionDeux a{
 	background-color:#FADBD8;
 	font-family:'Oleo Script', cursive;
+	color:#7D3C98;
 }
 
-#sectionTrois{
+#sectionTrois , #sectionTrois a{
 	background-color:#D5D8DC;
 	font-family:'Cookie', cursive;
+	color:blue;
 	
 }
-#sectionQuatre{
+#sectionQuatre , #sectionQuatre a{
 	background-color:#F4F6F6;
 	font-family:'Courgette', cursive;
+	color:#28B463;
 	
 }
 
@@ -233,7 +233,7 @@ footer span{
 }
 
 hr{
-	width:100%;
+	width:30%;
 	height:4px;
 	background: linear-gradient(to bottom right, pink, #7D3C98);
 	border:none;
@@ -243,7 +243,7 @@ hr{
 
 #hrMenuTrois, #hrMenuDeux, #hrMenuQuatre{
 	border-radius:50%;
-	width:15%;
+	
 }
 
 #tabMenuTrois, #tabMenuDeux, #tabMenuQuatre{
@@ -291,7 +291,7 @@ hr{
 #sectionUn a, #sectionDeux a, #sectionTrois a, #sectionQuatre a{
 	text-decoration:none;
 	text-align:center;
-	color:black;
+
 }
 
 .mainPro{
@@ -388,7 +388,8 @@ hr{
   	background-size: 0 100%;
   	transition: background-size .4s ease;
   	font-size:1.09rem;
-  	display:inline-block;
+	  display:inline-block;
+	  flex-wrap:nowrap;
 }
 
 .souligneMoi:hover {
