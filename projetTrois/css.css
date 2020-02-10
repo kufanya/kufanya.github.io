@@ -310,7 +310,7 @@ hr{
 	height:50px;
 	border-radius:14px;
 	background-color:green;
-	box-shadow:0;
+	box-shadow:none;
 	border:0;
 	color:yellow;
 	font-weight:bold;
@@ -510,7 +510,7 @@ hr{
 			width:100%;
 			min-width:100%;
 			margin-left:0;
-			margin-right:non0e;
+			margin-right:0;
 			margin-bottom:30%;
 			height:auto;
 		}
