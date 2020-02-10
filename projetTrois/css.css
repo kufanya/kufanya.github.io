@@ -8,7 +8,11 @@ body {
 	overflow:scroll;
 	overflow-x:hidden;
 	flex-direction:column;
-	margin:none;
+	margin:0;
+}
+
+body a{
+text-decoration:none;
 }
 
 
@@ -26,7 +30,7 @@ header{
 	margin-left:0px;
 	margin-bottom:50px;
 	z-index:2;
-	padding:none;
+	padding:0;
 }
 .logo{
 	width:22%;
@@ -107,7 +111,6 @@ footer span{
 
 .ml , .cn{
 	color:#F1C40F;
-	text-decoration:none;
 	font-weight:bold;
 }
 
@@ -236,7 +239,7 @@ hr{
 	width:30%;
 	height:4px;
 	background: linear-gradient(to bottom right, pink, #7D3C98);
-	border:none;
+	border:0;
 	margin-left:5px;
 	margin-right:5px;
 }
@@ -289,7 +292,6 @@ hr{
 
 
 #sectionUn a, #sectionDeux a, #sectionTrois a, #sectionQuatre a{
-	text-decoration:none;
 	text-align:center;
 
 }
@@ -308,14 +310,13 @@ hr{
 	height:50px;
 	border-radius:14px;
 	background-color:green;
-	box-shadow:none;
+	box-shadow:0;
 	border:0;
 	color:yellow;
 	font-weight:bold;
 }
 
 .pro a{
-	text-decoration:none;
 	color:white;
 }
 
@@ -481,8 +482,8 @@ hr{
 	.menu, .menuDeux, .menuTrois, .menuQuatre{
 		width:100%;
 		min-width:100%;
-		margin-left:none;
-		margin-right:none;
+		margin-left:0;
+		margin-right:0;
 		margin-bottom:30%;
 		height:auto;
 	}
@@ -496,8 +497,8 @@ hr{
 	#sectionUn , #sectionDeux , #sectionTrois , #sectionQuatre{
 		margin-top:25%;
 		width:100%;
-		margin-left:none;
-		margin-right:none;
+		margin-left:0;
+		margin-right:0;
 	}
 
 
@@ -508,8 +509,8 @@ hr{
 		.menu, .menuDeux, .menuTrois, .menuQuatre{
 			width:100%;
 			min-width:100%;
-			margin-left:none;
-			margin-right:none;
+			margin-left:0;
+			margin-right:non0e;
 			margin-bottom:30%;
 			height:auto;
 		}
@@ -523,8 +524,8 @@ hr{
 		#sectionUn , #sectionDeux , #sectionTrois , #sectionQuatre{
 			margin-top:25%;
 			width:100%;
-			margin-left:none;
-			margin-right:none;
+			margin-left:0;
+			margin-right:0;
 		}
 
 
