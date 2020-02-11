@@ -15,6 +15,34 @@ body a{
 text-decoration:none;
 }
 
+/* installation des police */
+
+
+@font-face{
+	font-family:'cookie';
+	src: url('filesPolice/Cookie-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'courgette';
+	src: url('filesPolice/Courgette-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'pacifico';
+	src: url('filesPolice/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'OleoScript';
+	src: url('filesPolice/OleoScript-Regular.ttf') format('truetype');
+}
+
+
+
+
+
+/* fin installation de police */
 
 
 header{
@@ -138,20 +166,20 @@ footer span{
 .menuDeux{
 	background-color:#F2F3F4;
 	color:#28B463;
-	font-family:'Courgette', cursive;
+	font-family:'courgette', cursive;
 }
 
 .menuTrois{
 	background-color: #CACFD2;
 	color:blue;
-	font-family:'Cookie', cursive;
+	font-family:'cookie', cursive;
 	font-weight:bold;
 
 }
 
 .menuQuatre{
 	background-color: #FADBD8;
-	font-family:'Oleo Script', cursive;
+	font-family:'oleoScript', cursive;
 	color:#7D3C98;
 	
 }
@@ -159,7 +187,7 @@ footer span{
 .menu{
 	background-color: pink;
 	color:#7B241C;
-	font-family:'Pacifico', cursive;
+	font-family:'pacifico', cursive;
 }
 
 .menuExemple{
@@ -175,26 +203,26 @@ footer span{
 #sectionUn , #sectionUn a{
 	
 	background-color:#F1948A;
-	font-family:'Pacifico', cursive;
+	font-family:'pacifico', cursive;
 	color:#7B241C;
 	
 }
 
 #sectionDeux , #sectionDeux a{
 	background-color:#FADBD8;
-	font-family:'Oleo Script', cursive;
+	font-family:'oleoScript', cursive;
 	color:#7D3C98;
 }
 
 #sectionTrois , #sectionTrois a{
 	background-color:#D5D8DC;
-	font-family:'Cookie', cursive;
+	font-family:'cookie', cursive;
 	color:blue;
 	
 }
 #sectionQuatre , #sectionQuatre a{
 	background-color:#F4F6F6;
-	font-family:'Courgette', cursive;
+	font-family:'courgette', cursive;
 	color:#28B463;
 	
 }
