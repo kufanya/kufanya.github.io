@@ -335,7 +335,7 @@ hr{
 
 .pro{
 	width:170px;
-	height:50px;
+	height:auto;
 	border-radius:14px;
 	background-color:green;
 	box-shadow:none;
@@ -343,8 +343,10 @@ hr{
 	color:yellow;
 	font-weight:bold;
 	text-align:center;
-	padding:9%;
+	padding:10px;
 }
+
+
 
 
 
