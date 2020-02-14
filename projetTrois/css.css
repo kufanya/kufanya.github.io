@@ -148,9 +148,8 @@ footer span{
 /* menuUn css  menuTest*/
 
 .menu, .menuDeux, .menuTrois, .menuQuatre{
-	position:absolute;
+	
 	padding:2%;
-	top:100px;
 	width:45%;
 	/*max-width:35%;*/
 	height:auto;
@@ -298,7 +297,7 @@ hr{
 /*  index css styles*/
 
 .flex{
-	margin-top:10%;
+	margin-top:20%;
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction:row;
@@ -337,7 +336,7 @@ hr{
 	width:170px;
 	height:auto;
 	border-radius:14px;
-	background-color:green;
+	background-color:#0B9D49;
 	box-shadow:none;
 	border:0;
 	color:yellow;
@@ -419,8 +418,8 @@ hr{
   	background-size: 0 100%;
   	transition: background-size .4s ease;
   	font-size:1.09rem;
-	  display:inline-block;
-	  flex-wrap:nowrap;
+	display:inline-block;
+	 flex-wrap:nowrap;
 }
 
 .souligneMoi:hover {
