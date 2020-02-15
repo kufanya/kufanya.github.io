@@ -97,6 +97,7 @@ table{
 
 td.menuText{
 	width:75%;
+	
 }
 
 td.menuPrix{
@@ -148,22 +149,26 @@ footer span{
 .menuDeux{
 	background-color:#F2F3F4;
 	font-family:'courgette', cursive;
+	color: #28B463;
 }
 
 .menuTrois{
 	background-color: #CACFD2;
 	font-family:'cookie', cursive;
 	font-weight:bold;
+	color: blue;
 }
 
 .menuQuatre{
 	background-color: #FADBD8;
 	font-family:'oleoScript', cursive;
+	color: #7D3C98;
 }
 
 .menu{
 	background-color: pink;
 	font-family:'pacifico', cursive;
+	color: #7B241C;
 }
 
 .menuExemple{
@@ -273,14 +278,14 @@ hr{
 /*  index css styles*/
 
 .flex{
-	margin-top:20%;
+	margin-top:15%;
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction:row;
 	align-items:center;
 	justify-content:center;
 	width:70%;
-	margin-bottom:29%;
+	margin-bottom:26%;
 }
 
 #sectionUn, #sectionDeux, #sectionTrois, #sectionQuatre{
