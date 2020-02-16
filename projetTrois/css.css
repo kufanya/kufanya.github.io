@@ -87,6 +87,8 @@ footer {
 	z-index: 2;
 }
 
+
+
 table{
 	border-spacing: 0px 10px;
 }
@@ -127,6 +129,7 @@ footer span{
 	position:fixed;
 	color:#F1C40F;
 	font-weight:bold;
+	margin-bottom:1%;
 }
 /* contactez moi et mentions legales fin*/
 
