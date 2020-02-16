@@ -134,7 +134,7 @@ footer span{
 
 .menu, .menuDeux, .menuTrois, .menuQuatre{
 	padding:0;
-	width:45%;
+	width:48%;
 	height:auto;
 	min-height:800px;
 	margin-bottom:10%;
@@ -424,7 +424,6 @@ hr{
 .loading:after {
   overflow: hidden;
   display: inline-block;
-  vertical-align: bottom;
   -webkit-animation: ellipsis steps(5,end) 1000ms infinite;      
   animation: ellipsis steps(5,end) 1000ms infinite;
   content: "\2026"; /* ascii caractere qui represente les points  de suspension */
