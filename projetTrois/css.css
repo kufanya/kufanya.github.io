@@ -1,7 +1,5 @@
 body {
-	background-color: white;
-	margin: 0px;
-	padding:0px;
+	background-color:white;
 	display: flex;
 	justify-content:center;
 	align-items:center;
@@ -9,6 +7,7 @@ body {
 	overflow-x:hidden;
 	flex-direction:column;
 	margin:0;
+	padding:0;
 }
 
 body a{
@@ -56,6 +55,8 @@ header{
 	z-index:2;
 	padding:0;
 }
+
+
 /* header logo */
 
 .logo{
@@ -87,7 +88,9 @@ footer {
 	z-index: 2;
 }
 
-
+footer a{
+	font-size:1.1em;
+}
 
 table{
 	border-spacing: 0px 10px;
@@ -104,14 +107,6 @@ td.menuText{
 
 td.menuPrix{
 	width:25%;
-}
-
-footer a{
-	font-size:1.1em;
-}
-
-footer span{
-	width:100px;
 }
 
 /* menu exemple */
@@ -174,10 +169,6 @@ footer span{
 	color: #7B241C;
 }
 
-.menuExemple{
-	margin-top:15%;
-}
-
 .menu h3, .menuDeux h3, .menuTrois h3, .menuQuatre h3{
 	font-size:2rem;
 }
@@ -215,9 +206,6 @@ footer span{
 	margin-top:5%;
 }
 
-.menu #blocT{
-	width:80%;
-}
 
 #ligneTitre{
 	display:flex;
@@ -226,13 +214,20 @@ footer span{
 
 }
 
-
-
-
 #ligneTitre p{
 	display:flex;
 	flex-wrap:nowrap;
 }
+
+hr{
+	width:30%;
+	height:4px;
+	background: linear-gradient(to bottom right, pink, #7D3C98);
+	border:0;
+	margin-left:5px;
+	margin-right:5px;
+}
+
 #blocT{
 	display:flex;
 	flex-direction:column;
@@ -247,18 +242,8 @@ footer span{
 	margin:7px;
 }
 
-hr{
-	width:30%;
-	height:4px;
-	background: linear-gradient(to bottom right, pink, #7D3C98);
-	border:0;
-	margin-left:5px;
-	margin-right:5px;
-}
-
 #hrMenuTrois, #hrMenuDeux, #hrMenuQuatre{
-	border-radius:50%;
-	
+	border-radius:50%;	
 }
 
 #tabMenuTrois, #tabMenuDeux, #tabMenuQuatre{
@@ -276,6 +261,7 @@ hr{
 	height:52px;
 	width:52px;
 }
+
 /* fin menuTest css */
 
 /*  index css styles*/
@@ -293,11 +279,12 @@ hr{
 
 #sectionUn, #sectionDeux, #sectionTrois, #sectionQuatre{
 	width:45%;
-	height:75%;
+	height:700px;
 	margin:10px;
 	display:flex;
 	align-items:center;
 	justify-content:center;
+	box-shadow:2px 2px 4px #AAB7B8;
 }
 
 
@@ -307,12 +294,6 @@ hr{
 
 /* décoration mise en page des menus de l'accueil */
 
-
-#sectionUn , #sectionDeux , #sectionTrois , #sectionQuatre{
-	height:700px;
-	width:40%;
-	box-shadow:2px 2px 4px #AAB7B8;
-}
 
 .mainPro{
 	margin-top:5%;
@@ -331,24 +312,12 @@ hr{
 	color:yellow;
 	font-weight:bold;
 	text-align:center;
-	padding:10px;
+	padding:15px;
 }
 
 
 /*  */
-
-.precision{
-	margin-top:10px;
-	display:flex;
-	flex-direction:row;
-	align-items:center;
-	max-height:52px;
-	height:52px;
-}
-
-.precision img{
-	margin-right:15px;
-}
+/*
 
 /*                                          */
 
@@ -363,7 +332,6 @@ hr{
 .grow:hover { 
 	transform: scale(1.05);
 	opacity:0.6;
-
 }
 
 .souligneMoi{
@@ -377,9 +345,8 @@ hr{
 }
 
 .souligneMoi:hover {
-  background-size: 100% 100%;
+  	background-size: 100% 100%;
 }
-
 
 /* wiggle */
 
@@ -452,8 +419,7 @@ hr{
 	.menu, .menuDeux, .menuTrois, .menuQuatre{
 		margin-bottom:30%;
 		margin-top:30%;
-		width:100%;
-		
+		width:100%;	
 	}
 
 	footer{
