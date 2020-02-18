@@ -286,7 +286,7 @@ hr{
 	justify-content:center;
 	box-shadow:2px 2px 4px #AAB7B8;
 }
-
+/* * : */
 
 #sectionUn a, #sectionDeux a, #sectionTrois a, #sectionQuatre a{
 	text-align:center;
@@ -294,7 +294,9 @@ hr{
 
 /* décoration mise en page des menus de l'accueil */
 
-
+.menuExemple{
+	margin-top:10%;
+}
 .mainPro{
 	margin-top:5%;
 	width:100%;
