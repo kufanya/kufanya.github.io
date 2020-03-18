@@ -27,6 +27,41 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+/* les elements css corriger */
+
+#textCenterSize{
+    text-align:center;
+    font-weight:bold;
+    font-size:2.5rem;
+    color:grey;
+}
+
+#leTextAgrandir{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+#bloc-7{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#aligneImage, #aligneImageUn{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+#aligneImage img, #aligneImageUn img{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+/* fin des elements corriger en css */
+
 .bloc {
     width: 100%;
     clear: both;
