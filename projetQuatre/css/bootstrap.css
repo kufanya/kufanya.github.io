@@ -5110,7 +5110,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-fixed-top .navbar-collapse,
     .navbar-static-top .navbar-collapse {
         padding-right: 0;
-        padding-left: 0
+        padding-left: 0;
     }
 }
 
@@ -5119,10 +5119,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
-        max-height: 200px
+        max-height: 200px;
     }
 }
 
@@ -5131,7 +5131,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .container>.navbar-collapse,
 .container>.navbar-header {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 @media (min-width:768px) {
@@ -5140,18 +5140,18 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .container>.navbar-collapse,
     .container>.navbar-header {
         margin-right: 0;
-        margin-left: 0
+        margin-left: 0;
     }
 }
 
 .navbar-static-top {
     z-index: 1000;
-    border-width: 0 0 1px
+    border-width: 0 0 1px;
 }
 
 @media (min-width:768px) {
     .navbar-static-top {
-        border-radius: 0
+        border-radius: 0;
     }
 }
 
