@@ -36,7 +36,7 @@ a:hover {
     color:grey;
 }
 
-#leTextAgrandir{
+#leTextAgrandir, #leTextAgrandirUn{
     font-size:1.5rem;
     font-weight:bold;
 }
