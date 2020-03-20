@@ -1,0 +1,89 @@
+body{
+   background-color:white;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   margin:0;
+   padding:0;
+}
+
+p{
+    color:black;
+}
+
+h1{
+    text-align:center;
+    font-family:'policeUn';
+    color:#2C3E50;
+}
+p{
+    width:60%;
+    text-align:justify;
+    font-size:1.9rem;
+    color:grey;
+}
+
+#laPage{
+    position:absolute;
+    top:100px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+.btnTech{
+    width:80%;
+    margin-bottom:5%;
+    padding:4%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.imageDecoration{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.imageDecoration img{
+    width:50%;
+    border-radius:15px;
+}
+
+.iconMenu{
+    position:fixed;
+    margin:0;
+    padding:0;
+    left:10px;
+    top:10px;
+    width:50px;
+    z-index:6;
+}
+
+.btnTech button{
+    background-color:#2C3E50;
+    padding:15px;
+    margin-left:3%;
+    margin-right:3%;
+    font-weight:bold;
+    text-align:center;
+    border-radius:20px;
+    border:0;
+    color:white;
+}
+.logo{
+    width:7.9rem;
+    height:7.9rem;
+    transition:ease-in-out;
+}
+
+.logo:hover{
+    transform: scale(1.5);
+    margin-bottom:5%;
+    transition:2000ms ease-in-out;
+}
+
+@font-face{
+    font-family:'policeUn';
+    src: url('police.ttf') format('truetype');
+}
+
